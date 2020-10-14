@@ -1,4 +1,8 @@
 First Commit
 
-Projects completed during my time at App Academy.
+Worked on projects during my time at App Academy.
+
+If incomplete, will comeback to finish.
+
+
 
