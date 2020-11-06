@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.list > li {
+    margin: 8px;
+}
+
+.list > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: lightgray;
+}
