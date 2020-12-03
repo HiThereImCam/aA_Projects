@@ -1,0 +1,45 @@
+{
+	entities: {
+		users: {
+            1: {
+                id: 1,
+                username: 'Julian',
+            },
+            2: {
+                id: 2,
+                username: 'Bradley'
+            }
+        },
+        transactions: {
+            1: {
+                id: 1
+                user_id: 1
+            },
+            2: {
+                id: 1
+                user_id: 1
+            }
+        },
+        coins: {
+            1: {
+                id: 1
+                name: 'Bitcoin'
+            }
+            2: {
+                id: 2
+                name: 'Etherium'
+            }
+        }
+	},
+	session: {
+		currentUser: 1
+	},
+	ui: {
+		modalOpen: true
+	},
+	errors: {
+		userErrors: [],
+		sessionErrors: [],
+		postErrors: []
+	}
+}
